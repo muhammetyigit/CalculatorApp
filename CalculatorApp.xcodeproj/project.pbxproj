@@ -14,7 +14,7 @@
 		E7A177352DC3C67B00A4A4C1 /* Exceptions for "CalculatorApp" folder in "CalculatorApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = E7A177222DC3C67A00A4A4C1 /* CalculatorApp */;
 		};
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZBS4KG7K6P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CalculatorApp/Info.plist;
+				INFOPLIST_FILE = CalculatorApp/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CalculatorApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -181,7 +181,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZBS4KG7K6P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CalculatorApp/Info.plist;
+				INFOPLIST_FILE = CalculatorApp/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CalculatorApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
