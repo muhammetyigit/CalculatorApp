@@ -10,12 +10,12 @@ CalculatorApp is an iOS application designed to perform basic mathematical opera
 -	Clean and responsive UI design
 
 ## 🛠 App Highlights
-📋 Form UI: Users fill in flight and passenger details with custom `UITableViewCell`  
-📅 Flight Date: Custom formatted date from `UIDatePicker`  
-🎫 Ticket UI: Stylish ticket-shaped cells for the flight list  
-🧠 Singleton Pattern: `TicketManager` (or similar) for centralized data handling  
-📁 Structured Architecture: Organized folders like `Controllers`, `Models`, `Views`  
-🔄 Smooth UX: Dynamic row height and interactive pickers in the table view
+🔢 Basic Operations: Simple calculation buttons for addition, subtraction, multiplication, and division
+📜 Calculation History: Save and review previous operations in a neat list
+⚠️ Error Handling: Division by zero alerts with video guidance
+💡 User Interface: Smooth and modern UI with interactive elements
+🧠 Data Management: Centralized handling of calculation data with a Singleton pattern
+📁 Organized Architecture: Well-structured project folders like Controllers, Models, and Views
 
 ## 📱 Technologies Used
 -	Swift
