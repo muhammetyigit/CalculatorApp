@@ -10,12 +10,12 @@ CalculatorApp is an iOS application designed to perform basic mathematical opera
 -	Clean and responsive UI design
 
 ## 🛠 App Highlights  
-🔢 **Basic Operations**: Simple calculation buttons for addition, subtraction, multiplication, and division  
-📜 **Calculation History**: Save and review previous operations in a neatly organized list  
-‼️ **Error Handling**: Alerts for division by zero with video guidance  
-💡 **User Interface**: Smooth and modern UI with interactive elements  
-🧠 **Data Management**: Centralized handling of calculation data using the Singleton pattern  
-📁 **Organized Architecture**: Well-structured project folders like Controllers, Models, and Views  
+🔢 Basic Operations: Simple calculation buttons for addition, subtraction, multiplication, and division  
+📜 Calculation History: Save and review previous operations in a neatly organized list  
+‼️ Error Handling: Alerts for division by zero with video guidance  
+💡 User Interface: Smooth and modern UI with interactive elements  
+🧠 Data Management: Centralized handling of calculation data using the Singleton pattern  
+📁 Organized Architecture: Well-structured project folders like Controllers, Models, and Views  
 
 ## 📱 Technologies Used
 -	Swift
