@@ -1,4 +1,4 @@
-# CalculatorApp.git
+# CalculatorApp
 CalculatorApp is an iOS application designed to perform basic mathematical operations like addition, subtraction, multiplication, and division. It also stores the history of previous calculations, allowing users to review their calculation history easily. The app is built with a simple and user-friendly interface for a seamless experience.
 
 ## ✅ Features
