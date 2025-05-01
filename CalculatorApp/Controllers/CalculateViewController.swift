@@ -1,3 +1,10 @@
+//
+//  CalculateViewController.swift
+//  CalculatorApp
+//
+//  Created by Muhammet Yiğit on 1.05.2025.
+//
+
 import UIKit
 
 class CalculateViewController: UIViewController {
@@ -146,7 +153,8 @@ class CalculateViewController: UIViewController {
                         result = firstNumber / secondNumber
                     }
                     
-                default: break
+                default:
+                    break
                 }
                 
                 if let result = result {

@@ -315,7 +315,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" image="list.dash" catalog="system" id="TK5-sK-LYX">
                             <color key="tintColor" name="dark-blue"/>
                             <connections>
-                                <segue destination="7XI-Zu-uub" kind="presentation" id="A0t-ix-HaG"/>
+                                <segue destination="kib-Z4-W92" kind="presentation" id="A0t-ix-HaG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -346,20 +346,20 @@
             </objects>
             <point key="canvasLocation" x="980.91603053435108" y="-34.507042253521128"/>
         </scene>
-        <!--Result History Table View Controller-->
+        <!--Result History-->
         <scene sceneID="ghi-75-wid">
             <objects>
                 <tableViewController id="7XI-Zu-uub" customClass="ResultHistoryTableViewController" customModule="CalculatorApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="g12-Vf-77H">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="g12-Vf-77H">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="result" id="qyj-K8-QcN">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qyj-K8-QcN" id="KgK-1c-Xdu">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -369,10 +369,24 @@
                             <outlet property="delegate" destination="7XI-Zu-uub" id="Cpu-WZ-q8R"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Result History" id="Aaf-mv-VOS">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="sim-rf-aXq">
+                            <color key="tintColor" name="red"/>
+                            <connections>
+                                <action selector="trashButtonTapped:" destination="7XI-Zu-uub" id="3Ta-27-W8x"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="XvO-bH-VAz">
+                            <color key="tintColor" name="dark-blue"/>
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="7XI-Zu-uub" id="Y6D-Fa-zJr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHd-zu-iq8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="985" y="628"/>
+            <point key="canvasLocation" x="1910.6870229007632" y="627.46478873239437"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rw1-jN-Td3">
@@ -391,6 +405,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zGg-rR-G8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f35-T3-HS3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kib-Z4-W92" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bMq-h0-osd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7XI-Zu-uub" kind="relationship" relationship="rootViewController" id="vV4-If-Exb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78t-jr-ovN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="983.96946564885491" y="627.46478873239437"/>
         </scene>
     </scenes>
     <resources>

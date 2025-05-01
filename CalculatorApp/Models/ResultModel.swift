@@ -8,5 +8,7 @@
 import Foundation
 
 struct ResultModel {
+    
+    // MARK: - Properties
     let text: String
 }

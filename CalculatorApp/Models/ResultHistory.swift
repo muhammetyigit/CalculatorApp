@@ -9,7 +9,7 @@ import Foundation
 
 class ResultHistory {
     
+    // MARK: - Properties
     static let shared = ResultHistory()
     var resultHistoryArray: [ResultModel] = []
-    
 }
