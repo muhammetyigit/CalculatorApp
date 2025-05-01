@@ -10,12 +10,12 @@ CalculatorApp is an iOS application designed to perform basic mathematical opera
 -	Clean and responsive UI design
 
 ## 🛠 App Highlights
-🔢 Basic Operations: Simple calculation buttons for addition, subtraction, multiplication, and division
-📜 Calculation History: Save and review previous operations in a neat list
-⚠️ Error Handling: Division by zero alerts with video guidance
-💡 User Interface: Smooth and modern UI with interactive elements
-🧠 Data Management: Centralized handling of calculation data with a Singleton pattern
-📁 Organized Architecture: Well-structured project folders like Controllers, Models, and Views
+📋 Form UI: Users fill in flight and passenger details with custom `UITableViewCell`  
+📅 Flight Date: Custom formatted date from `UIDatePicker`  
+🎫 Ticket UI: Stylish ticket-shaped cells for the flight list  
+🧠 Singleton Pattern: `TicketManager` (or similar) for centralized data handling  
+📁 Structured Architecture: Organized folders like `Controllers`, `Models`, `Views`  
+🔄 Smooth UX: Dynamic row height and interactive pickers in the table view
 
 ## 📱 Technologies Used
 -	Swift
@@ -29,16 +29,16 @@ CalculatorApp is an iOS application designed to perform basic mathematical opera
 To get started with the project, follow these steps:
 - Clone the repository to your local machine:
   ```bash
-  git clone https://github.com/muhammetyigit/CalculatorApp.git.git
-  open CalculatorApp.git.xcodeproj
+  git clone https://github.com/muhammetyigit/CalculatorApp.git
+  open CalculatorApp.xcodeproj
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://github.com/muhammetyigit/CalculatorApp.git/blob/main/gif.gif?raw=true" alt="CalculatorApp.git GIF" width="500"/>
+  <img src="https://github.com/muhammetyigit/CalculatorApp/blob/main/gif.gif?raw=true" alt="CalculatorApp.git GIF" width="500"/>
   <br><br>
-  <img src="https://github.com/muhammetyigit/CalculatorApp.git/blob/main/ss1.png?raw=true" alt="CalculatorApp.git Screenshot 1" width="500"/>
+  <img src="https://github.com/muhammetyigit/CalculatorApp/blob/main/ss1.png?raw=true" alt="CalculatorApp.git Screenshot 1" width="500"/>
     <br><br>
-  <img src="https://github.com/muhammetyigit/CalculatorApp.git/blob/main/ss2.png?raw=true" alt="CalculatorApp.git Screenshot 2" width="500"/>
+  <img src="https://github.com/muhammetyigit/CalculatorApp/blob/main/ss2.png?raw=true" alt="CalculatorApp.git Screenshot 2" width="500"/>
 </p>
 
 ## License
